@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Rongtuli;
+    src: url(/font/LiNiladriRongtuliUnicode-Regular.ttf);
+}
+@font-face {
+    font-family:Ador ;
+    src: url(/font/Li\ Ador\ Noirrit\ Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ador, sans-serif;;
+}
+html{
+    font-size: 62.5%;
+}
+/* reusable components */
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+.header{
+    background-image: url(/assest/Untitled-1\ 1.png);
+    height: 94rem;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.border{
+    padding: 1.7rem 3rem;
+    border-radius:5rem 0rem 5rem 0rem ;
+}
+/* nav section */
+.nav-section{
+    padding-top: 4.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.logo1{
+    width: 8.4rem;
+    height: 8.4rem;
+}
+.logo2{
+    width:14.5rem ;
+}
+/* hero section */
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.hero-tag{
+    font-size: 2.4rem;
+    background-color: #012A4A;
+    color: #fff;
+    width: fit-content;
+}
+
+.hero-header{
+    font-family: Rongtuli, sans-serif;
+    font-size: 6rem;
+    font-style: normal;
+    color: #003B60;
+    font-weight: 400;
+
+}
+.price-p{
+    font-size: 2.4rem;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap:0 1.5rem;
+}
+.pre-price{
+    font-size: 2.4rem;
+    text-decoration: line-through;
+    color: #608AAB;
+}
+.price-now{
+    font-size: 5.6rem;
+    font-weight: 700;
+}
+.order-text{
+    font-size: 3rem;
+}
