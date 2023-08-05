@@ -22,9 +22,10 @@ html {
   padding: 0 3.2rem;
 }
 .header {
-  background-image: url(/assest/Untitled-1\ 1.png);
-  height: 94rem;
-  width: 100%;
+  background-image: url('/assest/Untitled-1\ 1.png');
+  height:94rem;
+  /* max-width: 100%; */
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 9rem;
@@ -146,4 +147,93 @@ html {
 /* extra info section-style */
 .extra-info-text{
     font-size: 2.4rem;
+    margin-bottom: 8rem;
+}
+/* product-description */
+.product-description-section{
+  display: flex;
+  gap:9rem;
+  position: relative;
+  
+}
+.product-description-image{
+  width: 50%;
+}
+.product-description{
+  width: 50%;
+}
+.p-description-img{
+  position: absolute;
+}
+.p-description-header{
+  font-size: 44px;
+  color: #003B60;
+  margin-bottom: 4rem;
+}
+.p-features{
+  display: flex;
+  color: #003B60;
+font-family: Manrope;
+font-size: 2.4rem;
+font-weight: 500;
+list-style: none;
+gap: 1rem;
+margin-bottom: 6.3rem;
+}
+.p-features li{
+  margin-bottom: 2.4rem;
+}
+.fa-square-check{
+  margin-right: 17px;
+}
+/* denim section style */
+.denim-section{
+  background-image: url('./assest/denimbg.png');
+  height: 114.5rem;
+  max-width: 100%;
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.denim-header{
+  color: #F0E615;
+font-size:4.4rem;
+margin-bottom: 1.6rem;
+}
+.denim{
+  position: relative;
+height: 100%;
+}
+.denim-size{
+  position: absolute;
+  right: 10rem;
+  top: 8rem;
+}
+.sizes{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.sizes li span{
+  color: #012A4A;
+font-size: 44px;
+background-color: #fff;
+padding:1rem 1.3rem;
+border-radius: 100%;
+}
+.denim-offer{
+  color: #FFF;
+  width: 100%;
+text-align: center;
+font-size: 5rem;
+position: absolute;
+bottom: 3rem;
+left: 50%;
+transform: translate(-50%,0%);
+}
+.denim-offer-header{
+  margin-bottom: 3.5rem;
 }
