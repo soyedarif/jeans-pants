@@ -22,14 +22,13 @@ html {
   padding: 0 3.2rem;
 }
 .header {
-  background-image: url('/assest/Untitled-1\ 1.png');
-  height:94rem;
+  background-image: url("/assest/Untitled-1\ 1.png");
+  height: 94rem;
   /* max-width: 100%; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 9rem;
-
 }
 .border {
   padding: 1.7rem 3rem;
@@ -108,7 +107,6 @@ html {
 }
 .hero-img {
   margin-right: -20rem;
-
 }
 .hero-call {
   font-size: 5rem;
@@ -122,118 +120,423 @@ html {
   align-items: center;
   cursor: pointer;
   position: absolute;
-  bottom:-7.8rem;
+  bottom: -7.8rem;
   z-index: 1;
   left: 40%;
-  transform: translate(-20%,0%);
+  transform: translate(-20%, 0%);
 }
-.fa-phone{
-    color: #f0e615;
-    background-color: #012A4A;
-    padding: 1rem;
-    font-size: 3.4rem;
-    border-radius: 50%;
-    margin-right: 15px;
+.fa-phone {
+  color: #f0e615;
+  background-color: #012a4a;
+  padding: 1rem;
+  font-size: 3.4rem;
+  border-radius: 50%;
+  margin-right: 15px;
 }
-.hero-contact-text{
-    color: #fff;
-    background-color: #012A4A;
-    font-size: 3.3rem;
-    border-radius: 5rem 0rem 5rem 0rem;
-    padding: 1.2rem 4.4rem;
-    position: absolute;
-    bottom: -14.6rem;
+.hero-contact-text {
+  color: #fff;
+  background-color: #012a4a;
+  font-size: 3.3rem;
+  border-radius: 5rem 0rem 5rem 0rem;
+  padding: 1.2rem 4.4rem;
+  position: absolute;
+  bottom: -14.6rem;
 }
 /* extra info section-style */
-.extra-info-text{
-    font-size: 2.4rem;
-    margin-bottom: 8rem;
+.extra-info-text {
+  font-size: 2.4rem;
+  margin-bottom: 8rem;
 }
 /* product-description */
-.product-description-section{
+.product-description-section {
   display: flex;
-  gap:9rem;
+  gap: 9rem;
   position: relative;
-  
 }
-.product-description-image{
+.product-description-image {
   width: 50%;
 }
-.product-description{
+.product-description {
   width: 50%;
 }
-.p-description-img{
+.p-description-img {
   position: absolute;
 }
-.p-description-header{
+.p-description-header {
   font-size: 44px;
-  color: #003B60;
+  color: #003b60;
   margin-bottom: 4rem;
 }
-.p-features{
+.p-features {
   display: flex;
-  color: #003B60;
-font-family: Manrope;
-font-size: 2.4rem;
-font-weight: 500;
-list-style: none;
-gap: 1rem;
-margin-bottom: 6.3rem;
+  color: #003b60;
+  font-family: Manrope;
+  font-size: 2.4rem;
+  font-weight: 500;
+  list-style: none;
+  gap: 1rem;
+  margin-bottom: 6.3rem;
 }
-.p-features li{
+.p-features li {
   margin-bottom: 2.4rem;
 }
-.fa-square-check{
-  margin-right: 17px;
+.fa-square-check {
+  margin-right: 10px;
 }
 /* denim section style */
-.denim-section{
-  background-image: url('./assest/denimbg.png');
+.denim-section {
+  background-image: linear-gradient(rgb(34, 34, 34), rgba(34, 34, 34, 0.438), rgb(34, 34, 34)), url("./assest/denimbg.png");
   height: 114.5rem;
-  max-width: 100%;
+  max-width: 100vw;
   background-position: center;
-  background-size:contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-.denim-header{
-  color: #F0E615;
-font-size:4.4rem;
-margin-bottom: 1.6rem;
+.denim-header {
+  color: #f0e615;
+  font-size: 4.4rem;
+  margin-bottom: 1.6rem;
 }
-.denim{
+.denim {
   position: relative;
-height: 100%;
+  height: 100%;
 }
-.denim-size{
+.denim-size {
   position: absolute;
   right: 10rem;
   top: 8rem;
 }
-.sizes{
+.sizes {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
 }
 
-.sizes li span{
-  color: #012A4A;
-font-size: 44px;
-background-color: #fff;
-padding:1rem 1.3rem;
-border-radius: 100%;
+.size {
+  color: #012a4a;
+  font-size: 44px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 100%;
+  width: 6rem;
+  height: 6rem;
 }
-.denim-offer{
-  color: #FFF;
+.denim-offer {
+  color: #fff;
   width: 100%;
-text-align: center;
-font-size: 5rem;
-position: absolute;
-bottom: 3rem;
-left: 50%;
-transform: translate(-50%,0%);
+  text-align: center;
+  font-size: 5rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
-.denim-offer-header{
+.denim-offer-header {
   margin-bottom: 3.5rem;
+}
+/* category section style */
+.category-section {
+  background-color: #f0f9ff;
+  padding-top: 8rem;
+}
+.categories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3rem;
+  justify-content: center;
+  padding-bottom: 8rem;
+  border-bottom: 2px dotted #003b60;
+}
+.category-card {
+  width: 29.9rem;
+  padding: 1.8rem 3rem;
+  background-color: #fff;
+  border-radius: 5rem 0rem 5rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.category-card img {
+  flex-grow: 1;
+}
+.category-card p {
+  color: #fff;
+  font-size: 1.8rem;
+  height: 7.6rem;
+  display: flex;
+  align-items: center;
+  background-color: #012a4a;
+  border-radius: 5rem 0rem 5rem 0rem;
+  padding: 1.2rem 4.4rem;
+}
+/* denim feature style */
+.denim-features-div {
+  padding-top: 6.7rem;
+}
+.denim-feature-header {
+  color: #003b60;
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 7.3rem;
+}
+.denim-features {
+  display: flex;
+  color: #003b60;
+  font-family: Manrope;
+  font-size: 2.4rem;
+  font-weight: 500;
+  list-style: none;
+  gap: 3rem;
+  padding-bottom: 29.6rem;
+}
+.denim-features li {
+  margin-bottom: 2.4rem;
+}
+/* denim play section */
+.denim-play {
+  margin-top: -25rem;
+  position: relative;
+  margin-bottom: 7rem;
+}
+.denim-play-img {
+  width: 100%;
+}
+
+.play-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.534);
+  border-radius: 50%;
+  padding: 2rem;
+}
+/* direction style */
+.direction {
+  text-align: center;
+}
+.direction h3 {
+  color: #003b60;
+  font-size: 44px;
+  margin-bottom: 4rem;
+}
+.direction p {
+  margin: 0 auto;
+  color: #003b60;
+  width: fit-content;
+  font-size: 24px;
+  margin-bottom: 4rem;
+  padding: 1.8rem 6.8rem;
+  border: 1px solid #003b60;
+}
+
+.direction :nth-child(3) {
+  margin-bottom: 8rem;
+}
+/* price-pocket */
+.price-highlight {
+  margin-bottom: -34rem;
+}
+.price-pocket {
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
+}
+.price-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.price-content h3 {
+  font-size: 51px;
+  margin-bottom: 1.4rem;
+}
+.price-content p {
+  font-size: 32px;
+  margin-bottom: 2.8rem;
+}
+/* feedbacks style */
+.feedback-section {
+  background: #f0f9ff;
+  padding-top: 47rem;
+}
+.feedbacks {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5.7rem;
+  padding-bottom: 6.4rem;
+}
+.feedback {
+  width: 39.2rem;
+  height: 33rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5rem 0rem 5rem 0rem;
+  font-size: 1.6rem;
+}
+.active {
+  background-color: #003b60;
+  color: #fff;
+}
+.feedback img {
+  margin-top: -17%;
+  margin-bottom: 2.9rem;
+}
+.feedback h4 {
+  font-size: 28px;
+  margin-bottom: 0.97rem;
+}
+.feedback :nth-child(3) {
+  margin-bottom: 2.5rem;
+}
+.feedback :nth-child(4) {
+  padding: 1.38rem 3rem 4rem 3rem;
+}
+.slide-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.9rem;
+  font-size: 2.4rem;
+  color: #003b60;
+  padding-bottom: 7.9rem;
+}
+.slide-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #003b60;
+  padding: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+/* form-section */
+.form-section {
+  background-image: linear-gradient(rgb(0, 59, 96), rgba(34, 34, 34, 0.6)), url("./assest/form-bg.png");
+  height: 93.9rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-header {
+  padding-top: 8rem;
+  color: #fff;
+  font-size: 44px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+.forms{
+  display: flex;
+  /* grid-template-columns: repeat(2,1fr); */
+  gap: 11.7rem;
+}
+.form-inputs{
+display: flex;
+flex-direction: column;
+gap:3rem
+
+}
+.form-inputs h4{
+  color: #FFF;
+font-size: 18px;
+font-weight: 700;
+}
+.bill-inputs{
+  width: 50%;
+}
+
+.form-inputs input{
+  width: 100%;
+  color: #FFF;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding: 1.2rem;
+  background-color: transparent;
+  border:1px solid #fff;
+}
+.form-inputs input:focus{
+  outline: none;
+}
+.payment-details{
+  width: 50%;
+}
+
+/* links */
+.links{
+  margin-top: -20rem;
+  background:#003b60;
+  height: 27.7rem;
+  z-index: 99;
+  position: relative;
+  border-radius: 5rem 0rem 5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFF;
+
+}
+.needed-links h3{
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+  border-bottom: 2px solid #f0e615;
+}
+.needed-links p{
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.order-contact h3{
+  color: #F0E615;
+  font-size: 24px;
+  font-weight: 700;
+}
+.order-contact p{
+  font-size: 3.99rem;
+  font-weight: 700;
+}
+/* footer */
+.footer{
+  background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(0, 59, 96) ), url('./assest/roll-blue-denim-jeans-arranged-stack-wall-beauty-fashion-clothing-concept 1.png');
+  margin-top: -8rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 34.9rem;
+  z-index: 0;
+}
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 2.1rem;
+  align-items: center;
+  justify-content: center;
+}
+.social-logos{
+  display: flex;
+  margin-top:12rem ;
+  gap:2.1rem ;
+  margin-bottom: 6.8rem;
+}
+.footer-text p{
+  color: #FFFEFF;
+font-size: 2rem;
+font-weight: 500;
+}
+.funnel{
+  color: #FFE663;
+font-size: 25px;
+font-weight: 700;
+text-decoration: underline;
 }
