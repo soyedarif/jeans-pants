@@ -22,7 +22,7 @@ html {
   padding: 0 3.2rem;
 }
 .header {
-  background-image: url("/assest/Untitled-1\ 1.png");
+  background-image: url("./assest/Untitled-1 1.png");
   height: 94rem;
   /* max-width: 100%; */
   background-position: center;
